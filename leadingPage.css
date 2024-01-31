@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    background-image: radial-gradient(circle at -16.45% 74.18%, #f8c8bb 0, #edc0b8 8.33%, #dfb7b4 16.67%, #ccacac 25%, #b6a0a1 33.33%, #9d9294 41.67%, #828282 50%, #68736f 58.33%, #53655d 66.67%, #42594d 75%, #354f3e 83.33%, #2d4631 91.67%, #284026 100%);
+}
+main {
+    display: flex;
+    flex-direction: column;
+    width: 80vh;
+    height: 100vh;
+}
+main .PrimeiroNome {
+    display: flex;
+    font-size: 80px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.SegundoNome {
+    display: flex;
+    font-size: 80px;
+    margin-left: 50px;
+    margin-top: -20px;
+}
+hr {
+    display: flex;
+    border: solid 3px black;
+    border-radius: 10px;
+    width: 250px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+button {
+    display: flex;
+    padding:15px 30px;
+    border-radius:20px;
+    background-color:#3b3b3b;
+    cursor:pointer;
+    margin-top:10px;
+    border:2px solid #3b3b3b;
+    width: 150px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    transition: all ease .2s;
+}
+button:hover {
+    background-color:#070707;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+img {
+    display: flex;
+    width: 80%; 
+    height: auto; 
+    
+}

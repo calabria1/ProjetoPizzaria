@@ -181,4 +181,10 @@ cs('.pizzaInfo--size').forEach((size, sizeIndex)=>{
     alert('Obrigado pela compra!  ❤️');
   });
 
- 
+  function irParaPagina2() {
+    window.location.href = 'pagina2.html';
+  }
+
+  function irParaIndexHTML() {
+    window.location.href = 'index.html';
+  }

@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color:#EEE;
+    background-image: radial-gradient(circle at -16.45% 74.18%, #f8c8bb 0, #edc0b8 8.33%, #dfb7b4 16.67%, #ccacac 25%, #b6a0a1 33.33%, #9d9294 41.67%, #828282 50%, #68736f 58.33%, #53655d 66.67%, #42594d 75%, #354f3e 83.33%, #2d4631 91.67%, #284026 100%);
     font-family:'Lato',Helvetica,Arial;
     font-size:15px;
     display:flex;
@@ -57,6 +57,7 @@ aside.show {
 main {
     flex:1;
     padding:20px;
+    
 }
 h1 {
     font-family:'Hepta Slab', Helvetica, Arial;
@@ -64,7 +65,8 @@ h1 {
 main h1{
     display: flex;
     justify-content: center;
-    font-size: 50px;
+    font-size: 80px;
+    font-weight: 500;
 }
 .pizza-area {
     display:grid;
@@ -111,7 +113,7 @@ main h1{
 }
 .pizza-item--price {
     font-size:15px;
-    color:#333;
+    color:#000000;
     margin-top:5px;
 }
 .pizza-item--name {
@@ -122,7 +124,7 @@ main h1{
 }
 .pizza-item--desc {
     font-size:13px;
-    color:#555;
+    color:#000000;
     margin-top:10px;
 }
 
@@ -441,4 +443,16 @@ main h1{
     .pizzaInfo--cancelMobileButton {
         display:block;
     }
+}
+main button {
+    display: flex;
+    padding:20px 30px;
+    border-radius:20px;
+    background-color:#3b3b3b;
+    color:#FFF;
+    cursor:pointer;
+    text-align:center;
+    margin-top:20px;
+    border:2px solid #3b3b3b;
+    transition: all ease .2s;
 }
